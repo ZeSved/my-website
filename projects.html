@@ -4,32 +4,86 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./projects.js" defer></script>
   <link rel="stylesheet" href="projects.css">
   <title>Projects</title>
 </head>
 <body>
-  <section class="pages-list">
-    <nav>
+  <header class="pages-list">
       <span>
-        <button class="about-me">
-          <a href="./aboutme.html">About me</a>
-        </button>
+          <a href="./aboutme.html">
+            <button class="button">About me</button>
+          </a>
       </span>
-    </nav>
-    <nav>
-      <span>
-        <button class="home">
-          <a href="./index.html">Home</a>
-        </button>
+      <span> 
+          <a href="./index.html">
+            <button class="button">Home</button>
+          </a>
       </span>
-    </nav>
-    <nav>
-      <span>
-        <button class="contact-me">
-          <a href="./contact.html">Contact me</a>
-        </button>
+      <span>       
+          <a href="./contact.html">
+            <button class="button">Contact me</button>
+          </a>
       </span>
-    </nav>
-  </section>
+  </header>
+  <label for="main-content" class="label">These are the projects that I have worked on</label>
+  <main id="main-content">
+    <section class="project">
+      <nav class="cal-nav">
+        <a target="_blank" class="cal-link" href="https://mrbuilder687.github.io/More-advanced-calculator/">
+          <nav class="main">
+            <p class="result">1+2=3</p>
+            <nav class="cl-but">
+              <p class="one">1</p><p class="two">2</p>
+            </nav>
+          </nav>
+        </a>
+      </nav>
+      <nav>
+        <p class="name">CALCULATOR</p>
+      </nav>
+      <nav class="nav-3">
+        <article class="p">
+          <span><p>This is by far the biggest and most advanced project</p></span>
+          <span><p>(as of writing this). It is also the first project that</p></span>
+          <span><p>I made without help from other people and from scratch.</p></span>
+          <span><p>The very poorly made calculator on the right is the link to it.</p></span>
+        </article>
+      </nav>
+    </section>
+    <section class="project">
+        <nav class="nav1">
+          <a class="clock-link" target="_blank" href="https://mrbuilder687.github.io/Time-app/">
+            <p class="time"></p>
+          </a>
+        </nav>
+        <nav>
+          <p class="name">CLOCK</p>
+        </nav>
+        <nav class="nav2">
+          <article class="p">
+            <div><p>This is a clock that I made, it was also my first kinda</p></div>
+            <div><p>big project. And while the one you see here is small</p></div>
+            <div><p>and pathetic, it is a link to the actual project. So go</p></div>
+            <div><p>ahead and click it!</p></div>
+          </article>
+        </nav>
+    </section>
+    <section class="project">
+      <nav class="nav-5">
+        <a class="ctrlf-link" target="_blank" href="https://mrbuilder687.github.io/word-app/">Ctrl + f</a>
+      </nav>
+      <nav>
+        <p class="name">CTRL+F</p>
+      </nav>
+      <nav class="nav-4">
+        <article class="p">
+          <div><p>When I made this I thought "I am so cool </p></div>
+          <div><p>I managed to make this". But then I realized that I</p></div>
+          <div><p>had just made the Ctrl+f function, it is still cool tho.</p></div>
+        </article>
+      </nav>
+    </section>
+  </main>
 </body>
 </html>

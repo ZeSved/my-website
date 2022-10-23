@@ -56,3 +56,11 @@ div {
    rgba(1,0,42,1) 16%,
    rgba(112,0,143,1) 100%);
 }
+
+.home-button:focus{
+  background: rgb(0,0,23);
+  background: linear-gradient(90deg,
+   rgba(0,0,23,1) 0%,
+   rgba(1,0,42,1) 1%,
+   rgba(112,0,143,1) 100%);
+}
