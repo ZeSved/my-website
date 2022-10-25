@@ -21,8 +21,8 @@ body{
     margin-bottom: 1%;
     margin-right: 1%;
     border-radius: 5%;
-    padding: 5%;
-    width: 20%;
+    padding: 1%;
+    width: 7%;
     text-align: center;
     font-size: 100%;
     background: rgb(0, 0, 15);
@@ -31,6 +31,15 @@ body{
      rgba(1,0,42,1) 64%,
      rgba(112,0,143,1) 100%);
     box-shadow: 0 0 2% 1% black;
+  
+  }
+  
+  .button:hover{
+    background: rgb(0, 0, 15);
+    background: linear-gradient(0deg,
+     rgba(0,0,23,1) 0%,
+     rgba(1,0,42,1) 16%,
+     rgba(112,0,143,1) 100%);
   }
   
   .button:focus{
@@ -44,24 +53,43 @@ body{
   header{
     width: 100%;
     height: 10%;
-    box-shadow: 0px 3px 15px 2px rgb(80, 0, 90);
     text-align: right;
+    box-shadow: 0 1px 1px 1px rgba(112,0,143,1);
+  }
+  
+  .link{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+  }
+
+  .main-content{
+    display: flex;
+    justify-content: center;
   }
   
   .project{
-    box-shadow: 3px 3px 15px 3px rgb(80, 0, 90);
-    margin: 5% 2% 5% 2%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    width: 85%;
+    border: none;
+    margin: 1.1% 0% 1.1% 7.5%;
+    border-radius: 5%;
+    background: rgb(0, 0, 15);
+    background: linear-gradient(90deg,
+    rgba(0,0,20,1) 11%,
+    rgba(1,0,42,1) 64%,
+    rgba(112,0,143,1) 100%);
+    box-shadow: 0 0 2% 1% black;
   }
   
   .project:hover{
-    box-shadow: 5px 5px 20px 5px rgb(80, 0, 90)
-  }
-  
-  .time{
-    color: white;
-    font-size: 500%;
+    background: rgb(0, 0, 15);
+    background: linear-gradient(90deg,
+    rgba(0,0,23,1) 0%,
+    rgba(1,0,42,1) 16%,
+    rgba(112,0,143,1) 100%);
   }
   
   .p{
@@ -69,118 +97,18 @@ body{
     padding-top: 2.5%;
     height: 100%;
     min-width: 50%;
-    font-size: 100%;
+    font-size: 120%;
     color: white;
-  }
-  
-  .nav1{
-    padding-right: 10px;
-    border-right: 2px solid rgb(80, 0, 90);
-    border-radius: 15%;
-    margin-right: 10px;
-  }
-  
-  .nav2{
-    padding-left: 15px;
-    border-left: 2px solid rgb(80, 0, 90);
-    border-radius: 15%;
-    margin-left: 10px;
-  }
-  
-  .nav-4{
-    padding-left: 15px;
-    border-left: 2px solid rgb(80, 0, 90);
-    border-radius: 15%;
-    margin-left: 10px;
-  }
-
-  .ctrlf-link{
-    color: white;
-    font-size: 400%;
-  }
-
-  .nav-5{
-    padding-right: 10px;
-    border-right: 2px solid rgb(80, 0, 90);
-    border-radius: 15%;
-    margin-right: 10px;
-  }
-  
-  nav.nav-4 > article.p{
-    padding-top: 5%;
+    border: 2px solid;
+    border-color: rgb(104, 0, 133);
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 20px;
   }
   
   .name{
     color: white;
     font-size: 460%;
-  }
-  
-  .main{
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    background: rgba(216, 38, 252, 0.3);
-    border-radius: 30px;
-    margin-top: 220%;
-    height: 50%;
-    width: 350%;
-  }
-  
-  .one,
-  .two{
-    text-align: center;
-    width: 40%;
-    height: 40%;
-    margin: 3%;
-    border: 2px;
-    background-color: #000015;
-    color: #ffffff;
-    border-color: rgb(80, 0, 90);
-    border-style: solid;
-    border-radius: 500px;
-  }
-  
-  .result{
-    text-align: center;
-    color: #ffffff;
-    height: 40%;
-    width: 90%;
-    margin: auto;
-    text-align: right;
-    background-color: rgba(16, 14, 43, 0.9);
-    box-shadow: 0px 0px 1px 1px #100e2b;
-    border-radius: 15px;
-    border-top: 20px;
-    padding-right: 8px;
-    padding-top: 8px;
-    margin-bottom: 5%;
-  }
-  
-  .cl-but{
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .nav-3{
-    padding-left: 15px;
-    border-left: 2px solid rgb(80, 0, 90);
-    border-radius: 15%;
-    margin-left: 10px;
-  }
-  
-  .label{
-    margin-left: 12%;
-    width: 75%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 150%;
-    margin-top: 1%;
-    color: white;
-    border-bottom: 2px solid rgb(80, 0, 90);
-    border-left: 5px solid rgb(80, 0, 90);
-    border-right: 5px solid rgb(80, 0, 90);
-    border-radius: 100%;
-    padding-bottom: 1%;
   }
 }
 
@@ -224,24 +152,43 @@ body{
   header{
     width: 100%;
     height: 10%;
-    box-shadow: 0px 3px 15px 2px rgb(80, 0, 90);
     text-align: right;
+    box-shadow: 0 1px 1px 1px rgba(112,0,143,1);
+  }
+  
+  .link{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+  }
+
+  .main-content{
+    display: flex;
+    justify-content: center;
   }
   
   .project{
-    box-shadow: 3px 3px 15px 3px rgb(80, 0, 90);
-    margin: 5% 2% 5% 2%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    width: 85%;
+    border: none;
+    margin: 1.1% 0% 1.1% 7.5%;
+    border-radius: 5%;
+    background: rgb(0, 0, 15);
+    background: linear-gradient(90deg,
+    rgba(0,0,20,1) 11%,
+    rgba(1,0,42,1) 64%,
+    rgba(112,0,143,1) 100%);
+    box-shadow: 0 0 2% 1% black;
   }
   
   .project:hover{
-    box-shadow: 5px 5px 20px 5px rgb(80, 0, 90)
-  }
-  
-  .time{
-    color: white;
-    font-size: 500%;
+    background: rgb(0, 0, 15);
+    background: linear-gradient(90deg,
+    rgba(0,0,23,1) 0%,
+    rgba(1,0,42,1) 16%,
+    rgba(112,0,143,1) 100%);
   }
   
   .p{
@@ -249,116 +196,17 @@ body{
     padding-top: 2.5%;
     height: 100%;
     min-width: 50%;
-    font-size: 100%;
+    font-size: 120%;
     color: white;
-  }
-  
-  .nav1{
-    padding-right: 10px;
-    border-right: 2px solid rgb(80, 0, 90);
-    border-radius: 15%;
-    margin-right: 10px;
-  }
-  
-  .nav2{
-    padding-left: 15px;
-    border-left: 2px solid rgb(80, 0, 90);
-    border-radius: 15%;
-    margin-left: 10px;
-  }
-  
-  .nav-4{
-    padding-left: 15px;
-    border-left: 2px solid rgb(80, 0, 90);
-    border-radius: 15%;
-    margin-left: 10px;
-  }
-  
-  nav.nav-4 > article.p{
-    padding-top: 5%;
+    border: 2px solid;
+    border-color: rgb(104, 0, 133);
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 20px;
   }
   
   .name{
     color: white;
     font-size: 460%;
-  }
-
-  .ctrlf-link{
-    color: white;
-    font-size: 400%;
-  }
-
-  .nav-5{
-    padding-right: 15px;
-    border-right: 2px solid rgb(80, 0, 90);
-    border-radius: 15%;
-    margin-right: 10px;
-  }
-  
-  .main{
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    background: rgba(216, 38, 252, 0.3);
-    border-radius: 30px;
-    height: 100%;
-    width: 350%;
-  }
-  
-  .one,
-  .two{
-    text-align: center;
-    width: 40%;
-    height: 40%;
-    margin: 3%;
-    border: 2px;
-    background-color: #000015;
-    color: #ffffff;
-    border-color: rgb(80, 0, 90);
-    border-style: solid;
-    border-radius: 500px;
-  }
-  
-  .result{
-    text-align: center;
-    color: #ffffff;
-    height: 40%;
-    width: 90%;
-    margin: auto;
-    text-align: right;
-    background-color: rgba(16, 14, 43, 0.9);
-    box-shadow: 0px 0px 1px 1px #100e2b;
-    border-radius: 15px;
-    border-top: 20px;
-    padding-right: 8px;
-    padding-top: 8px;
-    margin-bottom: 5%;
-  }
-  
-  .cl-but{
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .nav-3{
-    padding-left: 15px;
-    border-left: 2px solid rgb(80, 0, 90);
-    border-radius: 15%;
-    margin-left: 10px;
-  }
-  
-  .label{
-    margin-left: 25%;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 200%;
-    margin-top: 1%;
-    color: white;
-    border-bottom: 2px solid rgb(80, 0, 90);
-    border-left: 3px solid rgb(80, 0, 90);
-    border-right: 3px solid rgb(80, 0, 90);
-    border-radius: 90%;
-    padding-bottom: 1%;
   }
 }
