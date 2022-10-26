@@ -169,6 +169,7 @@ body{
   }
   
   .project{
+    height: auto;
     display: flex;
     justify-content: center;
     width: 85%;
@@ -189,6 +190,7 @@ body{
     rgba(0,0,23,1) 0%,
     rgba(1,0,42,1) 16%,
     rgba(112,0,143,1) 100%);
+    width: 86%;
   }
   
   .p{
